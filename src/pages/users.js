@@ -3,7 +3,7 @@ import Layout from '@/shared/layout/layout'
 import { User } from '@/shared/ui/user/user'
 import { InfiniteScroll } from "@/shared/ui/infiniteScroll/infiniteScroll";
 import s from '@/styles/users.module.scss'
-import { PublicApi } from "@/shared/ui/api/api";
+import { PublicApi } from "@/shared/api/api";
 
 export default function Users({initialUsers}) {
   const [usersList, setUsersList] = useState(initialUsers);
